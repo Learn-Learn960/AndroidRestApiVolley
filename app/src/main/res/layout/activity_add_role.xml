@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddRoleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/role_names" />
+
+    <EditText
+        android:id="@+id/roleNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entry_role_names"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptions" />
+
+    <EditText
+        android:id="@+id/descriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entry_descriptions"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonRoleAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_role" />
+</LinearLayout>
